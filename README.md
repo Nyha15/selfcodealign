@@ -19,10 +19,6 @@
     <!-- | ⚠️&nbsp;<a href="#bias-risks-and-limitations">Limitations</a> -->
 </p>
 
-
-> [!NOTE]
-> The documentation is still WIP. We are working on it and will update it soon.
-
 ## About
 
 **SelfCodeAlign** is the first fully open and transparent pipeline that enhances a code language model without relying on human annotations or distilled data from large, proprietary models. This approach led to the creation of [StarCoder2-Instruct](README-SC2INST.md), a fully transparent, permissively licensed, self-aligned code model that achieves state-of-the-art performance in coding tasks.
