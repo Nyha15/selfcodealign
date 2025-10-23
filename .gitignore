@@ -4,6 +4,7 @@
 /*.json
 /*.bak
 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -27,6 +28,7 @@ sdist/
 var/
 wheels/
 share/python-wheels/
+stable-code-instruct-3b/
 *.egg-info/
 .installed.cfg
 *.egg
