@@ -1,7 +1,5 @@
 # Custom
 .vscode
-/*.jsonl
-/*.json
 /*.bak
 
 # Byte-compiled / optimized / DLL files
