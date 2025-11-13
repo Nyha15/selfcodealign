@@ -105,7 +105,7 @@ def containerized_run(item, limit_mb=4 * 1024):
     from star_align.code_exec_server.code_exec_reqs import exec_test
 
     idx, result, code, srv = item
-    membound_code = make_python_membound_code_prefix(limit_mb) + code
+    membound_code = code  # Container provides resource limits
     passed, output = exec_test(
         srv, membound_code, "", timeout=10, timeout_on_client=True
     )
