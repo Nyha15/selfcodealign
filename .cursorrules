@@ -11,3 +11,4 @@ Memory policy (must follow):
 - After every successful external tool response, persist stable, reusable signal back into core memory using `memory.core.memory_replace()` and `memory.core.memory_insert()` (which update `last_updated` and write to disk immediately).
 
 Do not add vector DBs or archival memory.
+This is simply emulating in-context memory blocks.
